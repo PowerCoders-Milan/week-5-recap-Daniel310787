@@ -1,0 +1,53 @@
+*{
+    background-color: black;
+}
+
+.head{
+    background-color: aqua;
+    height: 35vh;
+    text-align: center;
+}
+
+.head h1{
+    font-size: 55px;
+    color: blue;
+    background-color: transparent;
+}
+
+.head p{
+    font-size: 36px;
+    color: blue;
+    background-color: transparent;
+}
+.main{
+    display: flex;
+    background-color: coral;
+    height: 75vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.box1{
+    background-color: yellow;
+    padding: 80px 80px;
+    border-radius: 10px;
+}
+.box2{
+    background-color: black;
+    padding: 80px 80px;
+    border-radius: 10px;
+}
+.box3{
+    background-color: blueviolet;
+    padding: 80px 80px;
+    border-radius: 10px;
+}
+.base{
+    background-color: crimson;
+    height: 35vh;
+    text-align: center;
+}
+.base h2{
+    background: transparent;
+    font-size: 36px;
+    color: turquoise;
+}

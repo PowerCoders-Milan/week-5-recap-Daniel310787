@@ -1,0 +1,95 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: .5fr 1fr 1fr .5fr;
+    grid-template-areas: 
+    "head head head"
+    "con1 con2 con3"
+    "con4 con4 con5"
+    "base base base";
+}
+
+.head{
+    background-color: teal;
+    text-align: center;
+    grid-area: head;
+    font-size: 1em;
+    height: 25vh;
+    display: table;
+}
+.head h1{
+    display: table-cell;
+    vertical-align: middle;
+}
+.con1{
+    background-color: tomato;
+    text-align: center;
+    grid-area: con1;
+    font-size: 1em;
+    height: 35vh;
+    display: table;
+}
+.con1 p{
+    display: table-cell;
+    vertical-align: middle;
+}
+.con2{
+    background-color: lightblue;
+    text-align: center;
+    grid-area: con2;
+    font-size: 1em;
+    display: table;
+    height: 35vh;
+}
+.con2 p{
+    display: table-cell;
+    vertical-align: middle;
+}
+.con3{
+    background-color: lightgreen;
+    text-align: center;
+    grid-area: con3;
+    font-size: 1em;
+    display: table;
+    height: 35vh;
+}
+.con3 p{
+    display: table-cell;
+    vertical-align: middle;
+}
+.con4{
+    background-color: limegreen;
+    text-align: center;
+    grid-area: con4;
+    font-size: 1em;
+    height: 35vh;
+    display: table;
+}
+.con4 p{
+    display: table-cell;
+    vertical-align: middle;
+}
+.con5{
+    background-color: lightslategrey;
+    text-align: center;
+    grid-area: con5;
+    font-size: 1em;
+    display: table;
+    height: 35vh;
+}
+.con5 p{
+    display: table-cell;
+    vertical-align: middle;
+}
+.base{
+    background-color: magenta;
+    text-align: center;
+    grid-area: base;
+    height: 25vh;
+    align-content: center;
+    display: table;
+}
+.base h2{
+    display: table-cell;
+    vertical-align: middle;
+}
