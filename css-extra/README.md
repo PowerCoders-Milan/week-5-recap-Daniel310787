@@ -11,3 +11,4 @@ In the bigger column display 8 boxes, 2 per line.
 In the side column put 2 squared images.
 
 The **footer** is at the bottom and it contains a short contact form.
+sss
